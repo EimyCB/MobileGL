@@ -6,8 +6,14 @@
         <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1615" />
         <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/drawable/ic_gl.xml" value="0.1615" />
         <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1605" />
-        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/font/poppins.xml" value="0.14375" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout-land/fragment_detail.xml" value="0.24954954954954955" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout-land/fragment_main.xml" value="0.2875" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout-land/item_list.xml" value="0.2875" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/activity_main.xml" value="0.14736842105263157" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/app_bar.xml" value="0.1296875" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/fragment_detail.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/fragment_main.xml" value="0.2" />
         <entry key="..\:/Users/eimy_/Documents/kotlin/KotlinFundamentals/mobile_gl/app/src/main/res/layout/item_list.xml" value="0.19369369369369369" />
       </map>
     </option>

@@ -48,9 +48,4 @@ data class Resource<out T>(val status: Status, val data: T?, val message: String
         }
     }
 
-    fun isSuccessful() = status == Status.SUCCESS
-
-    fun isError() = status == Status.ERROR
-
-    fun isLoading() = status == Status.LOADING
 }
