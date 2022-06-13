@@ -3,4 +3,6 @@
     <string name="main_rv_description">Description</string>
     <string name="main_rv_title">Title</string>
     <string name="main_error">ERROR: Can\'t Connect</string>
+    <string name="details">Details</string>
+    <string name="Error">Error loading content</string>
 </resources>
