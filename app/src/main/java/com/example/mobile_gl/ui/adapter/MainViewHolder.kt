@@ -17,9 +17,9 @@ class MainViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     val itemDescription: TextView = binding.tvListDescription
     val itemImage: ImageView = binding.ivListImage
 
-    fun bind(list: MainResponse){
-        if(!list.image.isNullOrBlank()) Picasso.get().load(list.image).into(itemImage)
-        else itemImage.visibility= View.GONE
+    fun bind(list: MainResponse) {
+        if (!list.image.isNullOrBlank()) Picasso.get().load(list.image).into(itemImage)
+        else itemImage.visibility = View.GONE
         itemTitle.text = list.title
         itemDescription.text = list.description
     }

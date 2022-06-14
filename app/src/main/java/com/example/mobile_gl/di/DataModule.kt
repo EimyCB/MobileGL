@@ -1,7 +1,7 @@
 package com.example.mobile_gl.di
 
-import com.example.mobile_gl.data.MainDataSource
 import com.example.mobile_gl.data.ApiService
+import com.example.mobile_gl.data.MainDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -34,7 +34,7 @@ class DataModule {
         retrofit.create(ApiService::class.java)
 
     @Provides
-    fun provideApiDataSource(apiService: ApiService): MainDataSource{
+    fun provideApiDataSource(apiService: ApiService): MainDataSource {
         return MainDataSource((apiService))
     }
 }

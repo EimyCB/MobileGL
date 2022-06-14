@@ -9,7 +9,7 @@ import com.example.mobile_gl.data.model.MainResponse
 class MainAdapter(
     private var list: List<MainResponse>,
     private val onClick: (cardClicked: MainResponse) -> Unit
-): RecyclerView.Adapter<MainViewHolder>()  {
+) : RecyclerView.Adapter<MainViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -20,7 +20,7 @@ class MainAdapter(
         val itemList = list[position]
         holder.bind(itemList)
 
-        holder.cardContainer.setOnClickListener{
+        holder.cardContainer.setOnClickListener {
             onClick.invoke(itemList)
         }
     }

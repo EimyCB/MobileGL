@@ -17,7 +17,7 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(
     private val repository: MainRepository
-): ViewModel() {
+) : ViewModel() {
 
     private val _listResult = MutableLiveData<Resource<List<MainResponse>>>()
     val listResult: LiveData<Resource<List<MainResponse>>> = _listResult
@@ -25,9 +25,10 @@ class MainViewModel @Inject constructor(
     fun onStart() {
         getMainResponse()
     }
+
     fun getMainResponse() = viewModelScope.launch(Dispatchers.Main) {
         _listResult.value = Resource.loading()
-        val response = withContext(Dispatchers.IO){
+        val response = withContext(Dispatchers.IO) {
             repository.getList()
         }
         _listResult.value = response

@@ -39,18 +39,18 @@ class MainFragment : Fragment() {
         mainViewModel.listResult.observe(viewLifecycleOwner, Observer {
             when (it.status) {
                 Resource.Status.SUCCESS -> {
-                    binding.loading.visibility= View.GONE
-                    binding.loading.visibility= View.GONE
+                    binding.loading.visibility = View.GONE
+                    binding.error.visibility = View.GONE
                     if (it.data != null) list = it.data
                     initRecyclerView()
                 }
-                Resource.Status.LOADING ->{
-                    binding.loading.visibility= View.VISIBLE
-                    binding.loading.visibility= View.GONE
+                Resource.Status.LOADING -> {
+                    binding.loading.visibility = View.VISIBLE
+                    binding.error.visibility = View.GONE
                 }
                 Resource.Status.ERROR -> {
-                    binding.loading.visibility= View.GONE
-                    binding.error.visibility= View.VISIBLE
+                    binding.loading.visibility = View.GONE
+                    binding.error.visibility = View.VISIBLE
                     Toast.makeText(context, getString(R.string.Error), Toast.LENGTH_SHORT).show()
                 }
             }

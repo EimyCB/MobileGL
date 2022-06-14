@@ -9,7 +9,7 @@ abstract class BaseDataSource {
         return if (response?.isSuccessful == true) {
             val body = response.body()
             Resource.success(body)
-        }else Resource.error( "Error")
+        } else Resource.error("Error")
 
     }
 }
